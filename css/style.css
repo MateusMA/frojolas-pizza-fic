@@ -1,0 +1,537 @@
+/*@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');*/
+@import url('../fontes/cinzel/Cinzel-Regular.otf');
+
+html{
+  font-family: 'Pulse', serif;
+}
+
+*{
+    padding: 0px;
+    align-content: center;
+    align-self: auto;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 15px;
+}
+@font-face { 
+  font-family: "Pulse";
+  src: url(../fontes/cinzel/Cinzel-Regular.otf);
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+.submenu{
+  width: 50px;
+  height: 250px;
+  margin-top: -40px;
+  display: none;
+  position: absolute;
+}
+
+#todos{
+  width: 200px;
+  height: 40px;
+  margin-left: 0px;
+  list-style: none;
+}
+
+#container{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.70);
+  position: fixed;
+  z-index: 999;
+  display: none;
+}
+#modal{
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+#fechar a{
+  text-decoration: none;
+  border: solid 1px red;
+}
+
+.submenu_itens{
+  width: 180px;
+  height: 40px;
+  box-shadow: #000000 1px 1px 10px;
+  margin-left: 0px;
+  list-style: none;
+}
+a .submenu_itens{
+  min-height: 40px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.menu_itens:hover > .submenu{
+  cursor: pointer;
+  display: block;
+}
+body{
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#logo{
+  height: 100%;
+  padding-left: 50px;
+  width: 10%;
+  height: 70px;
+  float: left;
+}
+span{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#imglogo{
+  width: 100px;
+  height: 100px;
+  border-radius: 8000px;
+  box-shadow: 2px 2px 20px white;
+}
+.preco{
+  color: red;
+  font-size: 27px;
+  text-align: justify;
+  font-weight: bold;
+  margin-left: 6%;
+  margin-top: 25px;
+  width: 40%;
+  float: left;
+}
+.preco2{
+  color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 50%;
+  min-width: 50%;
+  min-height: 100%;
+  max-height: 100%;
+  margin-left: 35px;
+}
+.promocao{
+  color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration-line: line-through;
+  max-width: 50%;
+  min-width: 50%;
+  min-height: 100%;
+  max-height: 100%;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+#bodyPromocoes{
+  margin-top: 100px;
+}
+#menu{
+    padding-top: 50px;
+    min-width: 900px;
+    height: inherit;
+    float: left;
+    padding-left: 1%;
+    cursor: pointer;
+}
+#menu li{
+    padding: 15px;
+    float: left;
+    list-style: none;
+    background-color: rgba(43, 43, 43, 0.5);
+    padding: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    border-radius: 900px;
+    color: white
+}
+#menu li:hover{
+    background-color: rgba(255, 255, 255, 0.253);
+    box-shadow: 3px 3px 20px yellow;
+    color: yellow;
+    transition: 1s ease;
+}
+#menu li:hover a{
+  color: yellow;
+  transition: 1s ease;
+}
+form{
+    height: 60px;
+    padding-top: 3%;
+    margin-right: 10px;
+    
+  }
+form input{
+    height: 30px;
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+form input:hover{
+  width: 90px;
+  transition: 0.2s;
+}
+#txtSenha, #txtUsuario{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-right: 5px;
+}
+.menu_vertical{
+  margin-top: 1.2%;
+  background-color: rgba(0, 0, 0, 0.781);
+  height: auto;
+  width: 15%;
+  margin-left: 8%;
+  padding-bottom: 0.8%;
+  float: left;
+}
+.menu_vertical ul{
+  cursor: pointer;
+  width: 80%;
+  color: black;
+  list-style: none;
+  margin-left: 10%;
+}
+.menu_vertical li{
+  margin-top: 10px;
+  height: 60px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+}
+.menu_vertical li:hover{
+  color: red;
+  background-color: yellow;
+  transition: 0.5s ease;
+}
+.conteudo{
+  width: 63%;
+  height: auto;
+  float: left;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.faInTu{
+  width: 14%;
+  float: right;
+  position: relative;
+}
+#caixaRedes{
+  width: 100%;
+  margin-top: 20px;
+  scroll-behavior: auto;
+  position: fixed;
+  background-color: rgba(216, 216, 216, 0.925);
+  border-radius: 20px;
+  margin-left: 10%;
+  padding: 5px;
+  z-index: 1;
+}
+#instagram{
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/logoInsta.png);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 40px;
+}
+#facebook{
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/logoFace.png);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 50px;
+}
+#twiter{
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/logoTw.png);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 50px;
+}
+#instagram:hover{
+  background-color: rgba(255, 0, 0, 0.527);
+  border-radius: 100px;
+  transition: 0.5s ease;
+}
+#facebook:hover{
+  background-color: rgba(0, 0, 255, 0.527);
+  border-radius: 100px;
+  transition: 0.5s ease;
+}
+#twiter:hover{
+  background-color: rgba(0, 115, 150, 0.527);
+  border-radius: 100px;
+  transition: 0.5s ease;
+}
+.card{
+  width: 310px;
+  height: 500px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  box-shadow: #000000 1px 1px 15px;
+  color: black;
+}
+.img_iten{
+  height: 60%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: center;
+  background-size: 580px;
+}
+.card span{
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  color: red;
+  text-shadow: red 1px 1px 10px;
+}
+#img1{
+  background-image: url(../img/pizza7.jpg);
+}
+#img2{
+  background-image: url(../img/pizza6.jpg);
+}
+#img3{
+  background-image: url(../img/pizza5.jpg);
+}
+#img4{
+  background-image: url(../img/pizza4.jpg);
+}
+#img5{
+  background-image: url(../img/pizza3.jpg);
+}
+#img6{
+  background-image: url(../img/pizza2.jpg);
+}
+.card p{
+  font-size: 19px;
+  color:rgb(0, 0, 0);
+  min-height: 140px;
+  max-height: 140px;
+  text-align: center;
+  font-weight: bold;
+}
+.card button{
+  height: 10%;
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 11px;
+  padding-top: 5px;
+  border-radius: 30px 0px 0px 0px;
+  float: right;
+}
+
+.card button:hover{
+  background-color: rgb(219, 0, 0);
+  border-radius: 10px 0px 0px 0px;
+  box-shadow: 1px 1px 6px black;
+  cursor: pointer;
+  transition: 0.3s ease-in
+}
+footer{
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.274);
+  color: #ffffff;
+  position: absolute;
+  /*top: 210vh; */
+}
+#subtituloRodape div{
+  position: absolute;
+  margin-top: 50px;
+  padding-top: 5px;
+  margin-left: 2%;
+  width: 190px;
+  height: 50px;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 20px;
+}
+#txtEndereco{
+  position: absolute;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 18px;
+  width: auto;
+  margin-left: 20%;
+}
+#imgApk{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  background-image: url(../img/pizza5.jpg);
+  background-size: 160px;
+  margin-left: 72%;
+  border-radius: 20px;
+}
+#btn_login{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.342);
+  font-size: 15px;
+  cursor: pointer;
+  width: 35px;
+  height: 33px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  padding: 1px
+}
+#btn_login:hover{
+  background-color: rgba(0, 0, 0, 0.781);
+  border: 1px solid yellow;
+  color: yellow;
+  transition: 0.5s;
+  font-weight: bold
+}
+#btnApk button{
+  position: static;
+  width: 200px;
+  height: 80px;
+  margin-left: 80%;
+  margin-top: 36px;
+  background-color: rgba(255, 255, 255, 0.26);
+  color: rgb(121, 3, 3);
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+  font-family: "Pulse"
+}
+#btnApk button:hover{
+  background-color:  rgb(121, 3, 3);
+  color: rgba(255, 255, 255, 0.26);
+  transition: 0.3s ease-in;
+}
+
+
+
+
+
+
+
+
+/* código de fonte externa */
+.gallery-slideshow{
+    margin-top: 100px;
+    width: 100%;  
+}
+ul.gallery-slideshow > img, ul {margin: 0; padding: 0; background-color: rgba(0,0,0,0);}
+ul.gallery-slideshow {
+  position: relative;
+  list-style: none;
+  background: #000000;
+  overflow: hidden;
+  height:390px;
+}
+ul.gallery-slideshow li img {
+  position: absolute;
+  width: 100%; 
+  height: 120%;
+  align-content: center;
+}
+/*gallery controls*/
+.gallery-control{
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 40px; height: 40px;
+  background: rgba(0,0,0,0.8);
+  margin: auto;
+  cursor: pointer;
+}
+.gallery-control.prev { left: -5px; }
+.gallery-control.next { right: -5px; }
+.gallery-control.trigger {
+  left: 0; right: 0;
+  width: 50px; height: 50px;
+  border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;
+}
+.gallery-control:after{
+  position: absolute;
+  z-index: 2;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  content: "";
+  width: 20px; height: 20px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: transparent;
+}
+.gallery-control.prev:after {
+  border-width: 10px 15px 10px 0px;
+  border-right-color: #ffffff;
+}
+.gallery-control.next:after {
+  border-width: 10px 0px 10px 15px;
+  border-left-color: #ffffff;
+}
+.gallery-control.trigger.pause:after{
+  border-style: double;
+  border-width: 0px 0px 0px 20px;
+  border-color: #ffffff;
+}
+.gallery-control.trigger.play:after{
+  left: 5px;
+  border-width: 10px 0px 10px 20px;
+  border-left-color: #ffffff;
+}
+/*gallery navigation*/
+ul.gallery-slideshow ul.gallery-navbar{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+}
+ul.gallery-navbar li{
+  all: unset;
+  position: relative;
+  display: inline-block;
+  width: 15px; 
+  height: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;
+  cursor: pointer;
+}
+ul.gallery-navbar li.active{ background: rgba(0, 0, 0, 0.61); border: 1px solid rgba(255, 255, 255, 0.61);}
+/**STATES**/
+ul.gallery-navbar li:hover, .gallery-control:hover{ transform: scale(0.9); }
+ul.gallery-navbar li:hover{ background: rgba(255,255,255,0.8); }
+ul.gallery-navbar li:active, .gallery-control:active { transform: scale(0.8); }

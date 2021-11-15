@@ -1,0 +1,131 @@
+html{
+    font-family: "Pulse";
+    font-size: 30px;
+    background-image: url(../img/personagemPizza2.png);
+    background-position: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    align-self: auto;
+    align-items: center;
+}
+@font-face { 
+    font-family: "Pulse";
+    src: url(../fontes/amanda_3/amanda.ttf);
+}
+.subtitulo_caixa{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 10px;
+}
+.curiosidade{
+    height: 510px;
+    width: 100%;
+    text-align: center;
+}
+.curiosidade div p{
+    height: 110px;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    font-weight: bold;
+    padding: 5px;
+    color: red
+}
+.img{
+    height: 390px;
+    width: inherit;
+}
+#img1{
+    background-image: url(../img/katypizza.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 390px;
+    margin-left: 10%;
+    float: left;
+    box-shadow: 1px 1px 10px black;
+}
+#img2{
+    background-image: url(../img/Katy_Perry_Cara_Delevingne_pizza_onesies.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 390px;
+    float: right;
+    box-shadow: 1px 1px 10px black;
+    margin-right: 10%;
+}
+#img3{
+    background-image: url(../img/9.JPG);
+    background-size: 104%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 390px;
+    box-shadow: 1px 1px 10px black;
+    margin-right: 10%;
+    float: left;
+    margin-left: 38%;
+}
+#img4{
+    background-image: url(../img/orlando-disney-viagem-blog-2013-04-orlando-abril-2013-149jpg_23560133265_o.jpg);
+    background-size: 104%;
+    background-repeat: no-repeat;
+    width: 620px;
+    height: 390px;
+    box-shadow: 1px 1px 10px black;
+    float: left;
+    margin-left: 33%;
+}
+#img5{
+    background-image: url(../img/pizzaJesus.jpg);
+    background-size: 104%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 390px;
+    box-shadow: 1px 1px 10px black;
+    float: left;
+    margin-left: 38%;
+}
+#img6{
+    background-image: url(../img/DcWa1kpWsAALCj_.jpg);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 390px;
+    margin-left: 9%;
+    float: left;
+    box-shadow: 1px 1px 10px black;
+}
+#img7{
+    background-image: url(../img/maxresdefault.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 390px;
+    float: right;
+    box-shadow: 1px 1px 10px black;
+    margin-right: 9%;
+}
+#img8{
+    background-image: url(../img/pizzas-estranhas-15.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 390px;
+    float: left;
+    box-shadow: 1px 1px 10px black;
+    margin-left: 30%;
+}

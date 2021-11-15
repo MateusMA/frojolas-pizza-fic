@@ -1,0 +1,110 @@
+#section2{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content2{
+    width: 50%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+}
+.img_content2{
+    width: 100px;
+    height: 220px;
+    background-image: url(../img/admin_user.png);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.text_content2{
+    padding-top: 120px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+footer p{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center
+}
+
+
+
+
+
+
+
+#section3{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#table{
+    margin-top: 20px;
+    width: 1500px;
+    min-height: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#table div{
+    text-align: center;
+    border: 1px solid grey;
+    padding-left: 1px;
+    width: 100px;
+    min-height: 20px;
+    float: left
+}
+.conteudo_tabela{
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid rgb(128, 128, 128);
+    padding-left: 0px;
+    min-width: 250px;
+    min-height: 20px;
+    float: left;
+    font-size: 15px
+}
+.subtitulo{
+    min-width: 250px;
+    min-height: 50px;
+    border: 1px solid rgb(24, 24, 24);
+    float: left;
+    text-align: center;
+    background-color: #7575755b
+}
+h2{
+    background-color: #d3d3d32a;
+    font-size: 20px;
+    text-align: center;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.70);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#modal{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+#fechar a{
+    text-decoration: none;
+    border: solid 1px red;
+}

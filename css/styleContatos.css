@@ -1,0 +1,58 @@
+*{
+    padding-left: 5px;
+    align-content: center;
+    align-self: auto;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 18px;
+    font-family: "Pulse";
+    font-weight: bold
+}
+@font-face { 
+    font-family: "Pulse";
+    src: url(../fontes/amanda_3/amanda.ttf);
+}
+#caixa{
+    width: 700px;
+    height: 747px;
+    margin-left: 30%;
+    background-color: rgba(255, 0, 0, 0.767);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 4px solid rgba(255, 0, 0, 0.226);
+    color: yellow
+}
+select{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.text{
+    width: 100%;
+}
+#button{
+    float: right;
+    background-color: white;
+    color: red;
+    border: 3px dotted red;
+    cursor: pointer;
+    padding-top: -5px;
+    margin-top: 5px;
+    width: 150px;
+    height: 50px;
+}
+#button:hover{
+    background-color: red;
+    color: yellow;
+    border: 3px dotted red;
+    transition: 0.5s ease;
+}
+body{
+    background-image: url(../img/personagemPizza2.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
